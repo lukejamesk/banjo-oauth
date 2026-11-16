@@ -1,0 +1,14 @@
+{
+  "client_id": "https://lukejamesk.github.io/banjo-oauth/client.json",
+  "client_name": "Banjo",
+  "redirect_uris": [
+    "http://127.0.0.1:48761/oauth/callback",
+    "http://127.0.0.1:48762/oauth/callback",
+    "http://127.0.0.1:48763/oauth/callback",
+    "http://127.0.0.1:48764/oauth/callback",
+    "http://127.0.0.1:48765/oauth/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
